@@ -58,7 +58,7 @@ export function AlurakutMenu({ githubUser }) {
 }
 AlurakutMenu.Wrapper = styled.header`
   width: 100%;
-  background-color: #308bc5;
+  background-color: #023047;
   .alurakutMenuProfileSidebar {
     background: white;
     position: fixed;
@@ -98,7 +98,7 @@ AlurakutMenu.Wrapper = styled.header`
     }
   }
   .container {
-    background-color: #308bc5;
+    background-color: #023047;
     padding: 7px 16px;
     max-width: 1110px;
     margin: auto;
@@ -145,13 +145,13 @@ AlurakutMenu.Wrapper = styled.header`
     }
     input {
       color: #ffffff;
-      background: #5579a1;
+      background: #364e5a;
       padding: 10px 42px;
       border: 0;
       background-image: url(${`${BASE_URL}/icons/search.svg`});
       background-position: 15px center;
       background-repeat: no-repeat;
-      border-radius: 1000px;
+      border-radius: 8px;
       font-size: 12px;
       ::placeholder {
         color: #ffffff;
@@ -163,7 +163,7 @@ AlurakutMenu.Wrapper = styled.header`
 AlurakutMenu.Logo = styled.img`
   background-color: #ffffff;
   padding: 9px 14px;
-  border-radius: 1000px;
+  border-radius: 8px;
   height: 34px;
 `;
 
